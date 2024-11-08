@@ -68,7 +68,12 @@ Here are some examples:
 - #>Enter filter: genre = Acción; cinema = Balmes Multicines
 ```
 
-After choosing what movie you want to see and specifying your time disponibility and your coordinates, the program displays the the cinema where you can watch the movie sooner, along with the indications of how to get there from your current position and an image of the path
+After choosing what movie you want to see and specifying your time disponibility and your coordinates, the program displays the the cinema where you can watch the movie sooner, along with the indications of how to get there from your current position and an image of the itinerary. For instance:
+<div align="center">
+  <img src="path.png" width="80%" height="80%">
+</div>
+
+Blue lines represent travellig by bus and red lines by foot. Black dots are bus stations, and orange dots are bus stations where you nned to take a bus line or change between lines. The cinema is represented with a big magenta dot.
 
 ### Authors
 Developed by [Pau Mateo Bernado](https://github.com/PauMateo) and [Pau Fernández Cester](https://github.com/PauFdz), Data Science students at GCED, UPC. (2022-23).
