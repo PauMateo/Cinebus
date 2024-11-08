@@ -1,0 +1,58 @@
+from typing import TypeAlias
+
+Coord:  TypeAlias = tuple[float, float]
+
+
+film_genres = {"Romántico \U0001F339 \U0001F496",
+               "Western \U0001F920 \U0001F335 \U0001F40E",
+               "Biografía \U0001F4DC",
+               "Drama \U0001F494",
+               "Comedia dramática \U0001F604 \U0001F62D",
+               "Histórico \U0001F3FA \U0001F30F",
+               "Crimen \U0001F52A \U0001FA78 \U0001F480",
+               "Guerra \U0001F9E8",
+               "Suspense \U0001F575",
+               "Documental \U0001F418 \U0001F992",
+               "Aventura \U0001F30D \U0001F920",
+               "Ciencia ficción \U0001F680 \U0001F9EC",
+               "Terror \U0001F47B \U0001F62C",
+               "Erótico \U0001F525 \U0001F60F",
+               "Acción \U0001F4A5",
+               "Familia \U0001F46A",
+               "Fantasía \U0001F9D9 \U0001F3F0",
+               "Comedia \U0001F3AD \U0001F604",
+               "Judicial \U00002696 \U0001F3DB",
+               "Animación \U0000270F"}
+
+cinemas_coords: dict[str, Coord] = {
+     'Arenas Multicines 3D': (41.3772755040237, 2.1494606118543174),
+     'Aribau Multicines': (41.38627791232003, 2.1626466396047315),
+     'Balmes Multicines': (41.40736701577681, 2.1386003665962647),
+     'Boliche Cinemes': (41.395455693930685, 2.1537420837800743),
+     'Bosque Multicines': (41.40170100944678, 2.151862866595919),
+     'Cine Capri': (41.32596975311035, 2.0953600684360474),
+     'Cinebaix': (41.38219022211328, 2.0450222819345742),
+     'Cinema Comedia': (41.389840893154734, 2.1676697261098146),
+     'Cinemes Can Castellet': (41.34543643591452, 2.0405818107673084),
+     'Cinemes Girona': (41.399794384796934, 2.164527008925862),
+     'Cinemes Sant Cugat': (41.469787854906144, 2.0901121242699876),
+     'Cines Montcada': (41.494336421716746, 2.1802964954365134),
+     'Cines Verdi Barcelona': (41.40418671718023, 2.156881199733329),
+     'Cinesa Diagonal 3D': (41.39403763128772, 2.136224366595472),
+     'Cinesa Diagonal Mar 18': (41.410455041612835, 2.216579268441141),
+     'Cinesa La Farga 3D': (41.36332421392511, 2.10484096843832),
+     'Cinesa La Maquinista 3D': (41.43972724360848, 2.19825733591856),
+     'Cinesa SOM Multiespai': (41.435657030361924, 2.1807281512581507),
+     'Filmax Gran Via 3D': (41.35838637725132, 2.1284332512534734),
+     'Full HD Cinemes Centre Splau': (41.34768595488537, 2.0787896276608895),
+     'Glòries Multicines': (41.40545590868874, 2.192622751256335),
+     'Gran Sarrià Multicines': (41.394968294956726, 2.1339804089255914),
+     'Maldá Arts Forum': (41.383427668697074, 2.17389273775988),
+     'Ocine Màgic': (41.44394440377754, 2.230652241452959),
+     'Renoir Floridablanca': (41.3818434726659, 2.162643654944318),
+     'Sala Phenomena Experience': (41.409265798307516, 2.171714535916728),
+     'Yelmo Cines Baricentro': (41.50844678386131, 2.138359280097517),
+     'Yelmo Cines Icaria 3D': (41.390815346532214, 2.1981648665952647),
+     'Zumzeig Cinema': (41.37754823657382, 2.145091453099332),
+     'Yelmo Cines Sant Cugat': (41.48365672049728, 2.0538435271627873)
+    }
