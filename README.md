@@ -56,14 +56,19 @@ The functionalities offered by `demo.py` are as follows:
 
 Here is a diagram of the menu system:
 
-<img src="menu_diagram.png" width=80% height=80%> 
+<div align="center">
+  <img src="menu_diagram.png" width="80%" height="80%">
+</div>
 
-The format of the filter system is quite specyfic. It's already explained to the user right before he can enter the filter, as you can see in the image above. 
+
+Note that the format of the filter system is quite specyfic. It's already explained to the user right before entering a filter, as you can see in the image above. 
 Here are some examples:
 ```
 - #>Enter filter: time=16:00 - 20:00; city = Barcelona; movie = Star Wars episodio V: El Imperio contraataca
 - #>Enter filter: genre = Acción; cinema = Balmes Multicines
 ```
+
+After choosing what movie you want to see and specifying your time disponibility and your coordinates, the program displays the the cinema where you can watch the movie sooner, along with the indications of how to get there from your current position and an image of the path
 
 ### Authors
 Developed by [Pau Mateo Bernado](https://github.com/PauMateo) and [Pau Fernández Cester](https://github.com/PauFdz), Data Science students at GCED, UPC. (2022-23).
