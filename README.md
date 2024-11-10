@@ -73,7 +73,7 @@ After choosing what movie you want to see and specifying your time disponibility
   <img src="path.png" width="80%" height="80%">
 </div>
 
-Blue lines represent travellig by bus and red lines by foot. Black dots are bus stations, and orange dots are bus stations where you nned to take a bus line or change between lines. The cinema is represented with a big magenta dot.
+Blue lines represent travellig by bus and red lines by foot. Black dots are bus stations, and orange dots are bus stations where you need to take a bus or change between bus lines. The cinema is represented with a big magenta dot.
 
 ### Authors
 Developed by [Pau Mateo Bernado](https://github.com/PauMateo) and [Pau Fernández Cester](https://github.com/PauFdz), Data Science students at GCED, UPC. (2022-23).
